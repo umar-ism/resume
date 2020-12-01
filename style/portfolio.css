@@ -1,0 +1,91 @@
+.portfolios {
+  width: 100%;
+  height: auto;
+  font-family: "Baloo Chettan 2";
+}
+
+.hugeTitle {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolios h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  text-align: center;
+  font-size: 20px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  margin: 10px 0;
+  padding: 0;
+  height: 60px;
+}
+
+.box {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 13px 11px 15px 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 13px 11px 15px 5px rgba(0, 0, 0, 0.37);
+}
+
+.box .img {
+  width: 250px;
+  height: 120px;
+}
+
+.box .img img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  height: 100%;
+}
+
+.visit-code {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+
+.visit {
+  width: 95px;
+  background-color: blue;
+  border-radius: 7px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+  -webkit-box-shadow: 11px 9px 8px 0px rgba(23, 11, 255, 0.44);
+  box-shadow: 11px 9px 8px 0px rgba(23, 11, 255, 0.44);
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.github-icon img {
+  width: 30px;
+}

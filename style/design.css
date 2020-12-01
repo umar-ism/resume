@@ -1,0 +1,331 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(234, 235, 219, 0.842);
+}
+
+.nav {
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex: wrap;
+}
+
+.chap {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.ong {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 0px 90px;
+    align-items: center;
+}
+
+.ong button {
+    font-family: 'Baloo Chettan 2';
+    cursor: pointer;
+    color: white;    
+    font-size: 17px;
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 8px;
+    border: 2px solid blue;
+    transition: 0.5s;
+}
+
+.ong button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    font-size: 15px;
+}
+
+.liniya {
+    margin: 0px;
+}
+
+.umar {
+    width: 50px;
+    height: 70px;
+    font-family: "Baloo Chettan 2";
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.umar img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.home {
+    width: 70px;
+    height: 35px;
+    font-family: 'Baloo Chettan 2';
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+    color: blue;
+    border: 2px solid blue;
+    background-color: white;
+    transition: 0.5s;
+}
+.hap {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home:hover{
+    width: 70px;
+    height: 35px;
+    transition: 0.5s;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+}
+
+.main {
+    width: auto;
+    height: 500px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.part1 {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.part1 h2 {
+    font-family: 'Allerta';
+}
+
+.part1 h4 {
+    font-family: 'Allerta';
+}
+
+.cat {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cat button{
+    font-family: 'Baloo Chettan 2';
+    width: 85px;
+    height: 35px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.cat button:hover{
+    border-radius: 14px;
+    transition: 0.5s;
+    color: blue;
+    font-size: 14px;
+    font-family: 'Baloo Chettan 2';
+}
+
+.mushuk h2{
+    transition: 0.5s;
+    font-family: 'Baloo Chettan 2';
+}
+
+.mushuk h2:hover{
+    transition: 0.5s;
+    font-size: 70px;
+}
+
+.mushuk p{
+    font-size: 40px;
+    transition: 0.5s;
+    font-family: 'Baloo Chettan 2';
+}
+
+.mushuk p:hover{
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.musuk {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.part2 {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.part2 img {
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+}
+
+.part1 h2 {
+    font-size: 80px;
+    margin: 0px;
+}
+
+.part1 h4 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.about {
+    width: auto;
+    height: 200px;
+}
+
+.about h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    width: 50%;
+}
+
+.menhaqimda {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.achievements {
+    width: auto;
+    height: 400px;
+}
+
+.achievements h3{
+text-align: center;
+}
+
+.faxriyyorliqlar {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.faxriy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.myskills {
+    width: auto;
+    height: 700px;
+}
+
+.myskills h3 {
+    text-align: center;
+}
+
+.skills {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.qism1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.qism2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact {
+    width: auto;
+    height: 500px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: blue;
+}
+
+.undraw{
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.undraw1 img {
+    width: auto;
+    height: 500px;
+} 
+
+.undraw1 {
+    width: 700px;
+    height: 500px;
+}
+
+.media {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia img {
+    width: 100px;
+}
+
+.socialm1 {
+    border: none;
+    cursor: pointer;
+}
+
+.socialm2 {
+    border: none;
+    cursor: pointer;
+}
+
+.socialm3 {
+    border: none;
+    cursor: pointer;
+}
+
+.socialm4 {
+    border: none;
+    cursor: pointer;
+}
